@@ -1,1 +1,1 @@
-Netflix GPT Creating tis project just for hand on practice of React.
+Netflix GPT Creating this project just for hands on practice in React.
