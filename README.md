@@ -27,6 +27,13 @@ Fetched data for trailer video
 Updated store with trailer video data
 embeded the youtube video and make it autoplay and mute
 added tailwind classes 
+build secondaryComponent
+Build movie list
+build movie card
+TMDB image cdn url
+created the hooks for getting the movies
+
+
 
 
  Utility onAuthStateChange given by firebase
