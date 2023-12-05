@@ -18,5 +18,15 @@ Bugfix: display name profile picture update
 Bugfix: if the user is not logged in redirect to browse or vice versa
 unsubscribed to the onAuthStateChange callback 
 Add hardcoded values to the constants file
+Register from tmdb api and generate the access token
+get data from TMDB Now playing movie list api
+Custom hook for now playing movies
+created a movie slice 
+Updated the store with movies data
+Fetched data for trailer video
+Updated store with trailer video data
+embeded the youtube video and make it autoplay and mute
+added tailwind classes 
+
 
  Utility onAuthStateChange given by firebase
