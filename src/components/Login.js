@@ -6,6 +6,7 @@ import { auth } from "../utils/firebase"
 import { useDispatch } from "react-redux";
 import {addUser} from '../utils/userSlice';
 import { PHOTO_URL } from "../utils/constants";
+import { BG_IMAGE_URL } from "../utils/constants";
 
 const Login = () => {
 
@@ -72,7 +73,7 @@ const Login = () => {
     return <div className="relative">
         <Header />
         <div> 
-            <img src="https://assets.nflxext.com/ffe/siteui/vlv3/dace47b4-a5cb-4368-80fe-c26f3e77d540/f5b52435-458f-498f-9d1d-ccd4f1af9913/IN-en-20231023-popsignuptwoweeks-perspective_alpha_website_large.jpg" alt="bg" />
+            <img src={BG_IMAGE_URL} alt="bg" />
         </div>
         <form className="w-1/4 absolute top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 bg-black bg-opacity-80 p-16">
             <h3 className="text-white text-3xl mb-5">{isSignInForm ? "Sign In" : "Sign Up"} </h3>

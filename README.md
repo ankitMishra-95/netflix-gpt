@@ -32,6 +32,9 @@ Build movie list
 build movie card
 TMDB image cdn url
 created the hooks for getting the movies
+GPT Search page
+Gpt serach bar
+multilingual feature
 
 
 
