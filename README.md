@@ -34,7 +34,12 @@ Netflix GPT Creating this project just for hands on practice in React.  <br>  <b
 - created the hooks for getting the movies  <br>
 - GPT Search page  <br>
 - Gpt serach bar  <br>
-- multilingual feature  <br>  <br>
+- multilingual feature  <br>
+- Created the movie recommendation system  <br>
+- OpenAi Not working due to billing (Added a custom string for now) <br />
+- Fetched the five movie results from the TMDB api <br />
+- Showed it using the MovieList Component (Reused it) <br />
+
 
 
 
