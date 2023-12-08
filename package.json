@@ -16,11 +16,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-<<<<<<< HEAD
-=======
-      "predeploy": "npm run build",
-      "deploy": "gh-pages -b main -d build" ,
->>>>>>> parent of e615440 (Updates)
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
