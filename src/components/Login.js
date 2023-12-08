@@ -73,7 +73,7 @@ const Login = () => {
     return <div className="relative">
         <Header />
         <div> 
-            <img src={BG_IMAGE_URL} className="h-screen object-cover" alt="bg" />
+            <img src={BG_IMAGE_URL} className="h-screen md:h-auto object-cover" alt="bg" />
         </div>
         <form className="w-11/12  md:w-1/4 absolute top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 bg-black bg-opacity-80 md:p-16 p-6">
             <h3 className="text-white text-3xl mb-5">{isSignInForm ? "Sign In" : "Sign Up"} </h3>
